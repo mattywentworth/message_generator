@@ -37,9 +37,9 @@ Then I edited that quote to include bracketed placeholders for variables that th
 I didn't want to overcomplicate the project, so I decided that the general outline above would be sufficient for the project and have enough variables to be fun.
 
 
-##Challenges & Unknowns
+## Challenges & Unknowns
 
-###JavaScript Approach
+### JavaScript Approach
 
 Generating the message is relatively simple. The project called for a minimum of 3 variables, and in order to produce something I thought would make me laugh, I ended up with 11 variables. I used arrays to store the candidate options for each message variable, and within the function I created an additional 11 variables representing a randomly chosen element within each of the variable arrays. The number of variables I ended up with seems like overkill; I'm not sure if there was a better or more efficient approach.
 
