@@ -1,10 +1,10 @@
 const verb1 = ['walked', 'practically floated', 'charged'];
 const noun2 = ['room', 'lobby', 'elevator', 'bathroom stall', 'pantry', 'attic', 'clubhouse', 'basement', 'closet', 'shower'];
-const exclamation3 = ['wow', 'boy oh boy', 'my goodness', 'holy moly'];
+const exclamation3 = ['Wow', 'Boy oh boy', 'My goodness', 'Holy moly'];
 const adjective4 = ['big', 'beautiful', 'luxurious', 'good', 'huge'];
 const noun5 = noun2;
 const noun6 = noun2;
-const noun7 = ['woke mob', 'liberals', 'leftists', 'crazies', 'bad hombres'];
+const noun7 = ['woke mob', 'liberals', 'leftists', 'crazies', 'bad hombres', 'lamestream media'];
 const noun8 = ['Everyone', 'The whole country', 'The whole world', 'Even Joe Rogan', 'Stone Cold Steve Austin'];
 const adjective9 = ['embarassing', 'pitiful', 'un-American', 'anti-American'];
 const adjective10 = ['Bumbling', 'Bummer', 'Buzzkill', 'Boring', 'Backward'];
@@ -39,8 +39,8 @@ const messageGenerator = () => {
     const usedAdjective10 = randomVarElement(adjective10);
     const usedAdjective11 = randomVarElement(adjective11);
 
-    return `I ${usedVerb1} into the ${usedNoun2}, I said, "${usedExclamation3}, this is a ${usedAdjective4} ${usedNoun5}. They don't make ${usedNoun6()} like this anymore, you can't, the ${usedNoun7} won't let you. Believe me, I know better than anyone. ${usedNoun8} is saying how ${usedAdjective9} it is. And you know ${usedAdjective10} Biden isn't ${usedAdjective11} enough to do anything about it.`;
-    //return `I ${verb1[randomIndexFunc(verb1)]} into the ${noun2[randomIndexFunc(noun2)]}, I said, "${exclamation3[randomIndexFunc(exclamation3)]}, this is a ${adjective4[randomIndexFunc(adjective4)]}.`;
+    return `I ${usedVerb1} into the ${usedNoun2}, I said, "${usedExclamation3}, this is a ${usedAdjective4} ${usedNoun5}, they don't make ${usedNoun6()} like this anymore. You can't, the ${usedNoun7} won't let you. Believe me, I know better than anyone. ${usedNoun8} is saying how ${usedAdjective9} it is. And you know ${usedAdjective10} Biden isn't ${usedAdjective11} enough to do anything about it.`;
+    //Initial complicated attempt at generating the message: return `I ${verb1[randomIndexFunc(verb1)]} into the ${noun2[randomIndexFunc(noun2)]}, I said, "${exclamation3[randomIndexFunc(exclamation3)]}, this is a ${adjective4[randomIndexFunc(adjective4)]}.`;
 };
 
 console.log(messageGenerator());
